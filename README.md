@@ -1,9 +1,16 @@
 # EdgeApp (Android + JNI + C++ OpenCV-like processing + OpenGL ES)
-This is a scaffold project produced by ChatGPT (full project skeleton). It includes:
-- Android app (Kotlin) with Camera2 preview
-- JNI bridge to native C++ code
-- C++ processing module (edge detection placeholder)
-- OpenGL ES renderer + simple shaders
-- CMakeLists and Gradle files
-- A minimal TypeScript web viewer (static)
-Files are scaffolded and **not** fully dependent on OpenCV installation; native code uses placeholder processing to simplify building.
+This project provides a tidy and minimalistic scaffolding for an end-to-end imaging pipeline, including: 
+
+android app (Kotlin) with Camera2 live preview, 
+
+JNI bridge from app to native C++, 
+
+processing module in C++ with easy placeholder edge detection method, 
+
+OpenGL ES renderer with minimal shader code to visualize frames, 
+
+CMake and Gradle project configs, and 
+
+lightweight TypeScript web-based viewer to view/display or simmulate processed output. 
+
+This is meant to be a solid foundation for running camera or image processing applications.
