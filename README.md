@@ -1,16 +1,18 @@
 # EdgeApp (Android + JNI + C++ OpenCV-like processing + OpenGL ES)
-This project provides a tidy and minimalistic scaffolding for an end-to-end imaging pipeline, including: 
+This project provides a tidy and minimalistic scaffolding for an end-to-end imaging pipeline -
 
-android app (Kotlin) with Camera2 live preview, 
+Including: 
 
-JNI bridge from app to native C++, 
+Android app (Kotlin) with Camera2 live preview. 
 
-processing module in C++ with easy placeholder edge detection method, 
+JNI bridge from app to native C++. 
 
-OpenGL ES renderer with minimal shader code to visualize frames, 
+Processing module in C++ with easy placeholder edge detection method.
 
-CMake and Gradle project configs, and 
+OpenGL ES renderer with minimal shader code to visualize frames. 
 
-lightweight TypeScript web-based viewer to view/display or simmulate processed output. 
+CMake and Gradle project configs. 
+
+Lightweight TypeScript web-based viewer to view/display or simmulate processed output. 
 
 This is meant to be a solid foundation for running camera or image processing applications.
